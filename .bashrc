@@ -32,6 +32,7 @@ alias syncCanon18='rsync -rutv /run/media/archie/0B7B9DAA0765338B/Pictures/100CA
 alias syncCanonM='rsync -rutv /run/media/archie/0B7B9DAA0765338B/Pictures/100CANON/Movies/ /mnt/NAS//FOTKY/100CANON/Movies/'
 alias sync-canon='rsync -rztv --size-only /run/media/archie/0B7B9DAA0765338B/Pictures/100CANON/ /mnt/NAS/FOTKY/100CANON/'
 alias ssha='ssh alarm@192.168.0.118'
+alias g='git commit -a && git push'
 # ex - archive extractor
 # usage: ex <file>
 ex ()
