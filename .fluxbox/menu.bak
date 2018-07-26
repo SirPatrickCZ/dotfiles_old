@@ -1,0 +1,107 @@
+[begin] (FluxBox)
+    [submenu] (Development)
+        [exec] (Electron) {electron}
+        [exec] (Qt Assistant) {assistant}
+        [exec] (Qt Designer) {designer}
+        [exec] (Qt Linguist) {linguist}
+        [exec] (Qt QDbusViewer) {qdbusviewer}
+    [end]
+    [submenu] (Editors)
+        [exec] (Mousepad) {mousepad}
+        [exec] (Nano) {xterm -e nano}
+        [exec] (Vi) {xterm -e vi}
+        [exec] (Vim) {xterm -e vim}
+    [end]
+    [submenu] (Graphics)
+        [exec] (Cannon Scangear [MG5200 series]) {scangearmp}
+        [exec] (Darktable) {darktable}
+        [exec] (Gcolor2) {gcolor2}
+        [exec] (GNU Image Manipulation Program) {gimp-2.10}
+        [exec] (Viewnior) {viewnior}
+        [exec] (XnView Multi Platform) {xnviewmp}
+    [end]
+    [submenu] (Multimedia)
+        [exec] (Audacious) {audacious}
+        [exec] (Kdenlive) {kdenlive}
+        [exec] (PulseAudio Volume Control) {pavucontrol}
+        [exec] (Qt V4L2 test Utility) {qv4l2}
+        [exec] (VLC media player) {vlc}
+    [end]
+    [submenu] (Network)
+        [exec] (AnyDesk) {anydesk}
+        [exec] (Avahi SSH Server Browser) {bssh}
+        [exec] (Avahi VNC Server Browser) {bvnc}
+        [exec] (Chromium) {chromium}
+        [exec] (Dropbox) {dropbox}
+        [exec] (FTP) {xterm -e ftp}
+        [exec] (Google Chrome) {google-chrome-stable}
+        [exec] (JDownloader) {JDownloader}
+        [exec] (KDE Connect Indicator) {kdeconnect-indicator}
+        [exec] (Lynx) {xterm -e lynx}
+        [exec] (Mail) {xterm -e mail}
+        [exec] (Messenger for Desktop) {messengerfordesktop}
+        [exec] (Talk) {xterm -e talk}
+        [exec] (Telnet) {xterm -e telnet}
+        [exec] (Transmission) {transmission-gtk}
+    [end]
+    [submenu] (Office)
+        [exec] (Atril Document Viewer) {atril}
+        [exec] (LibreOffice Impress) {libreoffice}
+    [end]
+    [submenu] (Science)
+        [exec] (R) {xterm -e R}
+    [end]
+    [submenu] (Shells)
+        [exec] (GIT) {xterm -e git}
+        [exec] (Krusader) {krusader}
+        [exec] (Oracle VM VirtualBox) {VirtualBox}
+        [exec] (Thunar File Manager) {thunar}
+        [exec] (UXTerm) {uxterm}
+        [exec] (Xterm) {xterm}
+    [end]
+    [submenu] (System)
+        [submenu] (Settings)
+            [submenu] (GNOME)
+                [exec] (Add/Remove Software) {pamac-manager}
+                [exec] (LightDM GTK+ Greeter settings) {lightdm-gtk-greeter-settings-pkexec}
+                [exec] (Login Window) {pkexec lightdm-settings}
+                [exec] (Network Connections) {nm-connection-editor}
+                [exec] (Software Update) {pamac-updater}
+            [end]
+            [exec] (Customize Look and Feel) {lxappearance}
+            [exec] (Grub Customizer) {grub-customizer}
+            [exec] (KDE Connect Settings) {kcmshell5 kcm_kdeconnect}
+            [exec] (Manage Printing) {xdg-open http://localhost:631/}
+            [exec] (Print Settings) {system-config-printer}
+        [end]
+        [exec] (Avahi Zeroconf Browser) {avahi-discover}
+        [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
+        [exec] (GNOME System Monitor) {gnome-system-monitor}
+        [exec] (GParted) {gparted}
+        [exec] (Htop) {xterm -e htop}
+        [exec] (multibootusb) {multibootusb-pkexec}
+        [exec] (Task Manager) {xfce4-taskmanager}
+        [exec] (VeraCrypt) {veracrypt}
+    [end]
+    [submenu] (Utilities)
+        [exec] (Clipman) {xfce4-clipman}
+        [exec] (compton) {compton --xrender-sync-fence}
+        [exec] (Docky) {docky}
+        [exec] (Engrampa Archive Manager) {engrampa}
+        [exec] (Fonts) {gnome-font-viewer}
+        [exec] (Notes) {xfce4-notes}
+        [exec] (Screenshot) {xfce4-screenshooter}
+    [end]
+    [separator]
+    [submenu] (FluxBox)
+        [workspaces] (Workspaces)
+        [submenu] (Styles)
+            [stylesdir] (~/.fluxbox/styles)
+        [end]
+        [config] (Configure)
+        [reconfig] (Reconfig)
+        [restart] (Restart)
+        [separator]
+        [exit] (Exit)
+    [end]
+[end]

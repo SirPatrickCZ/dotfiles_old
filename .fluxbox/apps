@@ -1,0 +1,17 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=xfce4-terminal-1531770808-1521572037)
+  [Alpha]	{255}
+[end]
+[app] (name=xfce4-terminal) (class=Xfce4-terminal) (role=xfce4-terminal-1531770840-399082111)
+  [Alpha]	{255}
+[end]
+[app] (name=xfce4-appfinder)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=thunar)
+  [Position]	(CENTER)	{0 0}
+[end]

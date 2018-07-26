@@ -1,0 +1,33 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "/home/archie/.Xmodmap"
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+feh --bg-scale /home/archie/Dropbox/tappety/landscapes/highway_long_exposure_light_trails-wallpaper-1600x900.jpg
+#compton &
+xcompmgr -l -5 -t -5 -r 4 -cC -V -b
+setxkbmap cz
+nm-applet &
+xfce4-clipman &
+numlockx
+pamac-tray &
+kdeconnect-indicator &
+dropbox &
+messengerfordesktop --os-startup &
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/archie/.fluxbox/log"

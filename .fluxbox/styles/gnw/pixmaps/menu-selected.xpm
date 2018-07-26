@@ -1,0 +1,14 @@
+/* XPM */
+static char * menu_selected_xpm[] = {
+"12 4 7 1",
+" 	c None",
+".	c #3B3B3B",
+"+	c #8B8B8B",
+"@	c #9C9C9C",
+"#	c #AAAAAA",
+"$	c #9A9A9A",
+"%	c #404040",
+"        .++.",
+"        @##@",
+"        $##$",
+"        %@@%"};

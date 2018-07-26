@@ -1,0 +1,183 @@
+#
+## Menu generated with fbmenugen v0.82
+#
+
+[begin] (Fluxbox)
+[encoding] {UTF-8}
+  [exec] (File Manager) {xdg-open .}
+  [exec] (Terminal) {xterm}
+  [exec] (Web Browser) {xdg-open http://}
+  [exec] (Run command) {fbrun}
+[separator]
+[submenu] (Accessories)
+  [exec] (About Xfce) {xfce4-about}
+  [exec] (Application Finder) {xfce4-appfinder}
+  [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
+  [exec] (Clipman) {xfce4-clipman}
+  [exec] (compton) {compton --xrender-sync-fence}
+  [exec] (Docky) {docky}
+  [exec] (Engrampa Archive Manager) {engrampa}
+  [exec] (File Manager) {exo-open --launch FileManager}
+  [exec] (Fonts) {gnome-font-viewer}
+  [exec] (Krusader) {krusader -qwindowtitle}
+  [exec] (LightDM GTK+ Greeter settings) {lightdm-gtk-greeter-settings-pkexec}
+  [exec] (Mousepad) {mousepad}
+  [exec] (Notes) {xfce4-notes}
+  [exec] (Run Program...) {xfce4-appfinder --collapsed}
+  [exec] (Screenshot) {xfce4-screenshooter}
+  [exec] (Sensor Viewer) {xfce4-sensors}
+  [exec] (Simplenote) {"/opt/Simplenote/simplenote"}
+  [exec] (Task Manager) {xfce4-taskmanager}
+  [exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
+  [exec] (Thunar File Manager) {thunar}
+  [exec] (Vim) {xterm -e 'vim'}
+  [exec] (Xfburn) {xfburn}
+[end]
+[submenu] (Development)
+  [exec] (Electron) {electron}
+  [exec] (Qt Assistant) {assistant}
+  [exec] (Qt Designer) {designer}
+  [exec] (Qt Linguist) {linguist}
+  [exec] (Qt QDbusViewer) {qdbusviewer}
+[end]
+[submenu] (Education)
+  [exec] (LibreOffice Math) {libreoffice --math}
+  [exec] (R) {xterm -e 'R'}
+[end]
+[submenu] (Graphics)
+  [exec] (Cannon Scangear (MG5200 series\)) {/usr/bin/scangearmp}
+  [exec] (Darktable) {/usr/bin/darktable}
+  [exec] (Gcolor2) {gcolor2}
+  [exec] (GNU Image Manipulation Program) {gimp-2.10}
+  [exec] (LibreOffice Draw) {libreoffice --draw}
+  [exec] (Viewnior) {viewnior}
+  [exec] (XnView Multi Platform) {/usr/bin/xnviewmp}
+[end]
+[submenu] (Multimedia)
+  [exec] (Audacious) {audacious}
+  [exec] (Kdenlive) {kdenlive}
+  [exec] (PulseAudio Volume Control) {pavucontrol}
+  [exec] (Qt V4L2 test Utility) {qv4l2}
+  [exec] (VLC media player) {/usr/bin/vlc --started-from-file}
+  [exec] (Xfburn) {xfburn}
+[end]
+[submenu] (Network)
+  [exec] (AnyDesk) {anydesk}
+  [exec] (Avahi SSH Server Browser) {/usr/bin/bssh}
+  [exec] (Avahi VNC Server Browser) {/usr/bin/bvnc}
+  [exec] (Chromium) {/usr/bin/chromium}
+  [exec] (Dropbox) {dropbox}
+  [exec] (Google Chrome) {/usr/bin/google-chrome-stable}
+  [exec] (JDownloader) {JDownloader}
+  [exec] (KDE Connect Indicator) {kdeconnect-indicator}
+  [exec] (Mail Reader) {exo-open --launch MailReader}
+  [exec] (Messenger for Desktop) {messengerfordesktop}
+  [exec] (Transmission) {transmission-gtk}
+  [exec] (Web Browser) {exo-open --launch WebBrowser}
+[end]
+[submenu] (Office)
+  [exec] (Atril Document Viewer) {atril}
+  [exec] (LibreOffice Base) {libreoffice --base}
+  [exec] (LibreOffice Calc) {libreoffice --calc}
+  [exec] (LibreOffice Draw) {libreoffice --draw}
+  [exec] (LibreOffice Impress) {libreoffice --impress}
+  [exec] (LibreOffice Math) {libreoffice --math}
+  [exec] (LibreOffice Writer) {libreoffice --writer}
+  [exec] (LibreOffice) {libreoffice}
+[end]
+[submenu] (Settings)
+  [exec] (Accessibility) {xfce4-accessibility-settings}
+  [exec] (Add/Remove Software) {pamac-manager}
+  [exec] (Appearance) {xfce4-appearance-settings}
+  [exec] (Customize Look and Feel) {lxappearance}
+  [exec] (Desktop) {xfdesktop-settings}
+  [exec] (Display) {xfce4-display-settings}
+  [exec] (File Manager) {thunar-settings}
+  [exec] (Grub Customizer) {grub-customizer}
+  [exec] (KDE Connect Settings) {kcmshell5 kcm_kdeconnect}
+  [exec] (Keyboard) {xfce4-keyboard-settings}
+  [exec] (LightDM GTK+ Greeter settings) {lightdm-gtk-greeter-settings-pkexec}
+  [exec] (Login Window) {pkexec lightdm-settings}
+  [exec] (MIME Type Editor) {xfce4-mime-settings}
+  [exec] (Mouse and Touchpad) {xfce4-mouse-settings}
+  [exec] (Network Connections) {nm-connection-editor}
+  [exec] (Notifications) {xfce4-notifyd-config}
+  [exec] (Panel) {xfce4-panel --preferences}
+  [exec] (Power Manager) {xfce4-power-manager-settings}
+  [exec] (Preferred Applications) {exo-preferred-applications}
+  [exec] (Print Settings) {system-config-printer}
+  [exec] (Removable Drives and Media) {thunar-volman-settings}
+  [exec] (Session and Startup) {xfce4-session-settings}
+  [exec] (Settings Editor) {xfce4-settings-editor}
+  [exec] (Settings Manager) {xfce4-settings-manager}
+  [exec] (Software Update) {pamac-updater}
+  [exec] (Window Manager Tweaks) {xfwm4-tweaks-settings}
+  [exec] (Window Manager) {xfwm4-settings}
+  [exec] (Workspaces) {xfwm4-workspace-settings}
+  [exec] (Xfce Terminal) {xfce4-terminal --preferences}
+[end]
+[submenu] (System)
+  [exec] (Add/Remove Software) {pamac-manager}
+  [exec] (Avahi Zeroconf Browser) {/usr/bin/avahi-discover}
+  [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
+  [exec] (GNOME System Monitor) {gnome-system-monitor}
+  [exec] (GParted) {/usr/bin/gparted}
+  [exec] (Grub Customizer) {grub-customizer}
+  [exec] (Htop) {xterm -e 'htop'}
+  [exec] (LightDM GTK+ Greeter settings) {lightdm-gtk-greeter-settings-pkexec}
+  [exec] (Log Out) {xfce4-session-logout}
+  [exec] (Login Window) {pkexec lightdm-settings}
+  [exec] (Manage Printing) {/usr/bin/xdg-open http://localhost:631/}
+  [exec] (multibootusb) {multibootusb-pkexec}
+  [exec] (Oracle VM VirtualBox) {VirtualBox}
+  [exec] (Print Settings) {system-config-printer}
+  [exec] (Sensor Viewer) {xfce4-sensors}
+  [exec] (Software Update) {pamac-updater}
+  [exec] (System Monitor) {gnome-system-monitor}
+  [exec] (Task Manager) {xfce4-taskmanager}
+  [exec] (Thunar File Manager) {thunar}
+  [exec] (VeraCrypt) {veracrypt}
+  [exec] (Xfce Terminal) {xfce4-terminal}
+[end]
+[separator]
+[submenu] (Advanced Settings)
+  [exec] (Conky RC) {geany ~/.conkyrc}
+  [exec] (Tint2 Panel) {geany ~/.config/tint2/tint2rc}
+[submenu] (Fbmenugen)
+  [exec] (Menu Schema) {geany ~/.config/fbmenugen/schema.pl}
+  [exec] (Menu Config) {geany ~/.config/fbmenugen/config.pl}
+[separator]
+  [exec] (Generate a menu with icons) {fbmenugen -i}
+  [exec] (Generate a menu without icons) {fbmenugen -g}
+[separator]
+  [exec] (Refresh cache) {fbmenugen -d}
+[end]
+[submenu] (Fluxbox)
+[config] (Configure)
+[submenu] (System Styles) {Choose a style...}
+  [stylesdir] (/usr/share/fluxbox/styles)
+[end]
+[submenu] (User Styles) {Choose a style...}
+  [stylesdir] (~/.fluxbox/styles)
+[end]
+[workspaces] (Workspace List)
+[submenu] (Tools)
+  [exec] (Screenshot - JPG) {import screenshot.jpg && display -resize 50% screenshot.jpg}
+  [exec] (Screenshot - PNG) {import screenshot.png && display -resize 50% screenshot.png}
+  [exec] (Run) {fbrun}
+  [exec] (Regen Menu) {fluxbox-generate_menu}
+[end]
+[commanddialog] (Fluxbox Command)
+  [reconfig] (Reload config)
+  [restart] (Restart)
+  [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
+  [separator]
+  [exit] (Exit)
+[end]
+[end]
+[separator]
+  [exec] (Refresh) {/usr/bin/perl \/usr\/bin\/fbmenugen -S \/home\/archie\/\.config\/fbmenugen\/schema\.pl -C \/home\/archie\/\.config\/fbmenugen\/config\.pl -o \/home\/archie\/\.fluxbox\/menu}
+[exit] (Exit)
+
+[endencoding]
+[end]
