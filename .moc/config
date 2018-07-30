@@ -1,0 +1,7 @@
+Theme = ${HOME}/.moc/themes/black_theme
+#readtags = no
+#QueueNextSongReturn = no
+#FormatString = "%(n:%n :)%(t:%t:)%(a: \(by %a\):)%(A: \(in %A\):)"
+##%(A: \(%A\):)"
+
+MusicDir = ${HOME}/Mus
