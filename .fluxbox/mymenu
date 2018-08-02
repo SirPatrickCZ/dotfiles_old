@@ -48,11 +48,13 @@
         [exec] (Krusader) {krusader}
         [exec] (Oracle VM VirtualBox) {VirtualBox}
         [exec] (Thunar File Manager) {thunar}
+	[exec] (PCManFM) {pcmanfm}
         [exec] (Xfce Terminal) {xfce4-terminal}
 	[exec] (Simple Terminal) {st}
     [end]
     [submenu] (System)
         [submenu] (Settings)
+		[exec] (Set wallpaper) {nitrogen}
                 [exec] (Add/Remove Software) {pamac-manager}
                 [exec] (LightDM GTK+ Greeter settings) {lightdm-gtk-greeter-settings-pkexec}
                 [exec] (Login Window) {pkexec lightdm-settings}
@@ -88,7 +90,7 @@
         [exec] (Avahi Zeroconf Browser) {avahi-discover}
         [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
         [exec] (GNOME System Monitor) {gnome-system-monitor}
-        [exec] (GParted) {gparted}
+        [exec] (GParted) {sudo gparted}
         [exec] (Htop) {st -e htop}
         [exec] (multibootusb) {multibootusb-pkexec}
         [exec] (Sensor Viewer) {xfce4-sensors}

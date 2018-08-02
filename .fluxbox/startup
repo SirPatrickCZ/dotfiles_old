@@ -14,7 +14,8 @@ xmodmap "/home/archie/.Xmodmap"
 # wmnd &
 # wmsmixer -w &
 # idesk &
-feh --bg-scale /home/archie/Dropbox/tappety/landscapes/highway_long_exposure_light_trails-wallpaper-1600x900.jpg
+#feh --bg-scale /home/archie/Dropbox/tappety/landscapes/highway_long_exposure_light_trails-wallpaper-1600x900.jpg
+nitrogen --restore
 #compton &
 xcompmgr -l -5 -t -5 -r 4 -cC -V -b
 setxkbmap cz

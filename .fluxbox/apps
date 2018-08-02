@@ -15,3 +15,6 @@
 [app] (name=thunar)
   [Position]	(CENTER)	{0 0}
 [end]
+[app] (name=pcmanfm)
+  [Position]	(CENTER)	{0 0}
+[end]
