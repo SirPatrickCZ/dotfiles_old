@@ -5,15 +5,11 @@
 # Lines starting with a '#' are ignored.
 
 # Change your keymap:
-xmodmap "/home/archie/.Xmodmap"
+#xmodmap "/home/archie/.Xmodmap"
 
 # Applications you want to run with fluxbox.
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
 #
-# unclutter -idle 2 &
-# wmnd &
-# wmsmixer -w &
-# idesk &
 #feh --bg-scale /home/archie/Dropbox/tappety/landscapes/highway_long_exposure_light_trails-wallpaper-1600x900.jpg
 nitrogen --restore
 #compton &

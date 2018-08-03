@@ -19,6 +19,7 @@
         [exec] (XnView Multi Platform) {xnviewmp}
     [end]
     [submenu] (Multimedia)
+	[exec] (MoC Player) {st -g 160x45 -e mocp}
         [exec] (Audacious) {audacious}
         [exec] (Kdenlive) {kdenlive}
         [exec] (PulseAudio Volume Control) {pavucontrol}
@@ -31,6 +32,7 @@
         [exec] (Avahi SSH Server Browser) {bssh}
         [exec] (Avahi VNC Server Browser) {bvnc}
         [exec] (Dropbox) {dropbox}
+        [exec] (Chromium) {chromium}
         [exec] (Google Chrome) {google-chrome-stable}
         [exec] (JDownloader) {JDownloader}
         [exec] (KDE Connect Indicator) {kdeconnect-indicator}
@@ -53,49 +55,15 @@
 	[exec] (Simple Terminal) {st}
     [end]
     [submenu] (System)
-        [submenu] (Settings)
-		[exec] (Set wallpaper) {nitrogen}
-                [exec] (Add/Remove Software) {pamac-manager}
-                [exec] (LightDM GTK+ Greeter settings) {lightdm-gtk-greeter-settings-pkexec}
-                [exec] (Login Window) {pkexec lightdm-settings}
-                [exec] (Network Connections) {nm-connection-editor}
-                [exec] (Software Update) {pamac-updater}
-            [submenu] (Xfce)
-                [exec] (Settings Manager) {xfce4-settings-manager}
-		[exec] (Accessibility) {xfce4-accessibility-settings}
-                [exec] (Appearance) {xfce4-appearance-settings}
-            	[exec] (Display) {xfce4-display-settings}
-       	        [exec] (Keyboard) {xfce4-keyboard-settings}
-                [exec] (MIME Type Editor) {xfce4-mime-settings}
-                [exec] (Mouse and Touchpad) {xfce4-mouse-settings}
-                [exec] (Notifications) {xfce4-notifyd-config}
-                [exec] (Panel) {xfce4-panel --preferences}
-                [exec] (Power Manager) {xfce4-power-manager-settings}
-                [exec] (Session and Startup) {xfce4-session-settings}
-                [exec] (Settings Editor) {xfce4-settings-editor}
-                [exec] (Window Manager) {xfwm4-settings}
-                [exec] (Window Manager Tweaks) {xfwm4-tweaks-settings}
-                [exec] (Workspaces) {xfwm4-workspace-settings}
-            [end]      
-            [exec] (Customize Look and Feel) {lxappearance}
-            [exec] (Desktop) {xfdesktop-settings}
-            [exec] (File Manager) {thunar-settings}
-            [exec] (KDE Connect Settings) {kcmshell5 kcm_kdeconnect}
-            [exec] (Manage Printing) {xdg-open http://localhost:631/}
-            [exec] (Preferred Applications) {exo-preferred-applications}
-            [exec] (Print Settings) {system-config-printer}
-            [exec] (Removable Drives and Media) {thunar-volman-settings}
-            [exec] (Xfce Terminal) {xfce4-terminal --preferences}
-        [end]
         [exec] (Avahi Zeroconf Browser) {avahi-discover}
-        [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
         [exec] (GNOME System Monitor) {gnome-system-monitor}
         [exec] (GParted) {sudo gparted}
         [exec] (Htop) {st -e htop}
-        [exec] (multibootusb) {multibootusb-pkexec}
         [exec] (Sensor Viewer) {xfce4-sensors}
         [exec] (Task Manager) {gnome-system-monitor}
-        [exec] (VeraCrypt) {veracrypt}
+        [exec] (Grub Customizer) {grub-customizer}
+        [exec] (Add/Remove Software) {pamac-manager}
+        [exec] (Software Update) {pamac-updater}
     [end]
     [submenu] (Utilities)
         [exec] (Application Finder) {xfce4-appfinder}
@@ -104,7 +72,40 @@
         [exec] (Fonts) {gnome-font-viewer}
         [exec] (Notes) {xfce4-notes}
         [exec] (Screenshot) {xfce4-screenshooter}
-        [exec] (Grub Customizer) {grub-customizer}
+        [exec] (VeraCrypt) {veracrypt}
+        [exec] (multibootusb) {multibootusb-pkexec}
+        [exec] (Bulk Rename) {/usr/lib/Thunar/ThunarBulkRename}
+    [end]
+    [submenu] (Settings)
+	[exec] (Set wallpaper) {nitrogen}
+        [exec] (LightDM GTK+ Greeter settings) {lightdm-gtk-greeter-settings-pkexec}
+        [exec] (Login Window) {pkexec lightdm-settings}
+        [exec] (Network Connections) {nm-connection-editor}
+        [exec] (Customize Look and Feel) {lxappearance}
+        [exec] (Desktop) {xfdesktop-settings}
+        [exec] (File Manager) {thunar-settings}
+        [exec] (KDE Connect Settings) {kcmshell5 kcm_kdeconnect}
+        [exec] (Preferred Applications) {exo-preferred-applications}
+        [exec] (Print Settings) {system-config-printer}
+        [exec] (Removable Drives and Media) {thunar-volman-settings}
+        [submenu] (Xfce)
+            [exec] (Settings Manager) {xfce4-settings-manager}
+	    [exec] (Accessibility) {xfce4-accessibility-settings}
+            [exec] (Appearance) {xfce4-appearance-settings}
+            [exec] (Display) {xfce4-display-settings}
+       	    [exec] (Keyboard) {xfce4-keyboard-settings}
+            [exec] (MIME Type Editor) {xfce4-mime-settings}
+            [exec] (Mouse and Touchpad) {xfce4-mouse-settings}
+            [exec] (Notifications) {xfce4-notifyd-config}
+            [exec] (Panel) {xfce4-panel --preferences}
+            [exec] (Power Manager) {xfce4-power-manager-settings}
+            [exec] (Session and Startup) {xfce4-session-settings}
+            [exec] (Settings Editor) {xfce4-settings-editor}
+            [exec] (Window Manager) {xfwm4-settings}
+            [exec] (Window Manager Tweaks) {xfwm4-tweaks-settings}
+            [exec] (Workspaces) {xfwm4-workspace-settings}
+            [exec] (Xfce Terminal) {xfce4-terminal --preferences}
+        [end]
     [end]
     [separator]
     [submenu] (FluxBox)
