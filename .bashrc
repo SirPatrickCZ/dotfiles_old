@@ -30,7 +30,6 @@ alias tm='while sleep 1;do tput sc;tput cup 0 $(($(tput cols)-29));date;tput rc;
 alias rsyncc='sudo rsync -aAXv --delete --exclude=/dev/* --exclude=/proc/* --exclude=/sys/* --exclude=/tmp/* --exclude=/run/* --exclude=/mnt/* --exclude=/media/* --exclude="swapfile" --exclude="lost+found" --exclude=".cache" --exclude="Dropbox" --exclude=".thumbnails" / /media/data/archie/rsync' 
 alias syncCanon18='rsync -rutv /run/media/archie/0B7B9DAA0765338B/Pictures/100CANON/2018/ /mnt/NAS//FOTKY/100CANON/2018'
 alias syncCanonM='rsync -rutv /run/media/archie/0B7B9DAA0765338B/Pictures/100CANON/Movies/ /mnt/NAS//FOTKY/100CANON/Movies/'
-alias sync-canon='rsync -rztv --size-only /run/media/archie/0B7B9DAA0765338B/Pictures/100CANON/ /mnt/NAS/FOTKY/100CANON/'
 alias ssha='ssh alarm@192.168.0.118'
 alias g='git commit -a && git push'
 # ex - archive extractor
