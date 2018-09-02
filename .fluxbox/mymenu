@@ -28,7 +28,6 @@
         [exec] (Xfburn) {xfburn}
     [end]
     [submenu] (Network)
-        [exec] (AnyDesk) {anydesk}
         [exec] (Avahi SSH Server Browser) {bssh}
         [exec] (Avahi VNC Server Browser) {bvnc}
         [exec] (Dropbox) {dropbox}

@@ -146,4 +146,4 @@ Mod4 Shift Return :exec st -g 160x45
 Mod4 a :exec thunar
 Mod4 x :exec chromium
 Mod4 s :exec st -g 160x45 -e mocp
-
+Print :exec scrot '%Y-%m-%d_%T.png' -e 'mv $f ~/Dropbox/Screenshots/' && notify-send 'Screemshot saved to Dropbox'

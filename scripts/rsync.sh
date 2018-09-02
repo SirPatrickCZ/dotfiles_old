@@ -19,5 +19,5 @@ echo -e "${BP}Přesouvám zkomprimovaný sfs na NAS.. Toto může o5 chvíli trv
 cp -v $hdd/Arch$datum.sfs /mnt/NAS/LINUX/
 echo -e "${BP}Odpojuji NAS${NC}"
 sudo umount /mnt/NAS
-vel=du -h $hdd/Arch$datum.sfs
+vel='du -h $hdd/Arch$datum.sfs'
 echo -e "${BP}Záloha dokončena. Velikost souboru je ${BWhite}$vel${NC}"

@@ -62,7 +62,6 @@
   [exec] (Xfburn) {xfburn}
 [end]
 [submenu] (Network)
-  [exec] (AnyDesk) {anydesk}
   [exec] (Avahi SSH Server Browser) {/usr/bin/bssh}
   [exec] (Avahi VNC Server Browser) {/usr/bin/bvnc}
   [exec] (Chromium) {/usr/bin/chromium}
@@ -73,15 +72,11 @@
   [exec] (Mail Reader) {exo-open --launch MailReader}
   [exec] (Messenger for Desktop) {messengerfordesktop}
   [exec] (Transmission) {transmission-gtk}
-  [exec] (Web Browser) {exo-open --launch WebBrowser}
 [end]
 [submenu] (Office)
   [exec] (Atril Document Viewer) {atril}
-  [exec] (LibreOffice Base) {libreoffice --base}
   [exec] (LibreOffice Calc) {libreoffice --calc}
-  [exec] (LibreOffice Draw) {libreoffice --draw}
   [exec] (LibreOffice Impress) {libreoffice --impress}
-  [exec] (LibreOffice Math) {libreoffice --math}
   [exec] (LibreOffice Writer) {libreoffice --writer}
   [exec] (LibreOffice) {libreoffice}
 [end]
