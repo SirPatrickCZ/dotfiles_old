@@ -71,6 +71,8 @@ Mod1 F2 :Exec xfce4-appfinder --collapsed
 122 :Exec pamixer -d 5 && notify-send "Hlasitost:" "$(pamixer --get-volume)"
 123 :Exec pamixer -i 5 && notify-send "Hlasitost:" "$(pamixer --get-volume)"
 121 :Exec pamixer -t && notify-send "Zvuk ztlumen"
+
+172 :Exec mocp -G
 # current window commands
 Mod1 F4 :Close
 Mod1 F5 :Kill
@@ -144,6 +146,6 @@ Control Mod4 F12 :TakeToWorkspace 12
 Mod4 Return :exec st
 Mod4 Shift Return :exec st -g 160x45
 Mod4 a :exec thunar
-Mod4 x :exec chromium
-Mod4 s :exec st -g 160x45 -e mocp
+Mod4 x :exec vivaldi-stable
+Mod4 s :exec st -g 160x45 -t MoC\ Player -e mocp
 Print :exec scrot '%Y-%m-%d_%T.png' -e 'mv $f ~/Dropbox/Screenshots/' && notify-send 'Screemshot saved to Dropbox'

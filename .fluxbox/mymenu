@@ -32,6 +32,7 @@
         [exec] (Avahi VNC Server Browser) {bvnc}
         [exec] (Dropbox) {dropbox}
         [exec] (Chromium) {chromium}
+	[exec] (Vivaldi) {vivaldi-stable}
         [exec] (Google Chrome) {google-chrome-stable}
         [exec] (JDownloader) {JDownloader}
         [exec] (KDE Connect Indicator) {kdeconnect-indicator}
