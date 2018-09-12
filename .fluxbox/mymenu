@@ -21,6 +21,7 @@
     [submenu] (Multimedia)
 	[exec] (MoC Player) {st -g 160x45 -e mocp}
         [exec] (Audacious) {audacious}
+	[exec] (Audacity) {audacity}
         [exec] (Kdenlive) {kdenlive}
         [exec] (PulseAudio Volume Control) {pavucontrol}
         [exec] (Qt V4L2 test Utility) {qv4l2}

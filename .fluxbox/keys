@@ -150,4 +150,4 @@ Mod4 a :exec thunar
 Mod4 x :exec vivaldi-stable
 Mod4 s :exec st -g 160x45 -t Music\ on\ Console -e mocp
 Print :exec scrot '%Y-%m-%d_%T.png' -e 'mv $f ~/Dropbox/Screenshots/' && notify-send 'Screemshot saved to Dropbox'
-Mod4 c :exec st -g 30x10 -t Calculator -e python
+Mod4 c :exec st -g 30x10 -t Calculator -e python -q
