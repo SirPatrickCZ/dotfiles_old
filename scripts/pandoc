@@ -1,0 +1,27 @@
+#!/bin/bash
+echo "Konvertuji MD na HTML"
+
+if [ "$1" == "drop" ]; then
+	echo "Pracuji v DropBoxu"
+	for i in ~/Dropbox/Notes/*.md; do
+		o="${i[@]/%md/html}"
+		pandoc -f markdown -t html -o ${o} ${i}
+	done
+	cd ~/Dropbox/Notes
+	mv -f *.html ./html/
+	echo "Hotovo."
+
+elif [ "$1" == "docs" ]; then
+	echo "Pracuji v ~/Docs"
+	for i in ~/Docs/notes/vimwiki/*.md; do
+		o="${i[@]/%md/html}"
+		pandoc -f markdown -t html -o ${o} ${i}
+	done
+	mv -f ~/Docs/notes/vimwiki/*.html ~/Docs/notes/html/
+	echo "Hotovo."
+
+else
+	echo "Zadejte argument"
+	echo "./pandoc drop = konverze v DropBoxu"
+	echo "./pandoc docs = konverze v Dokumentech"
+fi
