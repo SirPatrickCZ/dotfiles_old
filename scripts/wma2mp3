@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Zadejte cestu k wma souborům"
+read cesta
+cd $cesta
+for a in *.wma; do
+  f="${a[@]/%wma/mp3}"
+  ffmpeg -i "$a" -qscale:a 3 "$f"
+done
+mkdir mp3
+cp *.mp3 mp3/
+echo "Hotovo."
